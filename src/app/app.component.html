@@ -1,0 +1,33 @@
+<div fxLayout="column" fxLayoutAlign="center center" class="page-wrapper">
+  <div class="mail-button-container">
+    <button
+      mat-icon-button
+      [matBadge]="badgeValue"
+      (click)="resetBadge()"
+      matBadgeColor="warn"
+      class="mail-button-style"
+    >
+      <mat-icon>mail_outlined</mat-icon>
+    </button>
+  </div>
+  <div class="receiving-buttons-container">
+    <button
+      mat-raised-button
+      [disabled]="startReceivingDisabledFlag"
+      (click)="toggleReceivingButtons()"
+      color="primary"
+      class="receiving-button-style button-margin"
+    >
+      Start receiving
+    </button>
+    <button
+      mat-raised-button
+      [disabled]="stopReceivingDisabledFlag"
+      (click)="toggleReceivingButtons()"
+      color="accent"
+      class="receiving-button-style"
+    >
+      Stop receiving
+    </button>
+  </div>
+</div>

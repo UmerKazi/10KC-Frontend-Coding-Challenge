@@ -1,0 +1,42 @@
+.page-wrapper {
+  height: 100vh;
+}
+
+.mail-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+  margin: 0 0 24px;
+}
+
+.mail-button-style {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.receiving-buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  /* border: 1px solid white; */
+}
+
+.button-margin {
+  margin-right: 8px;
+}
+
+.receiving-button-style {
+  border-radius: 4px;
+  padding: 0 16px;
+  min-width: 64px;
+  line-height: 36px;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
